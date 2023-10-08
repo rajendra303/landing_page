@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://c1.wallpaperflare.com/preview/157/553/206/moon-blood-moon-space-science.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.about {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.WhyChooseUs {
+    background-color: #e6e6e6;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.WhyChooseUs h2 {
+    font-size: 36px;
+    margin-top: -60px;
+}
+
+.WhyChooseUs .container {
+    flex-direction: row-reverse;
+}
+
+.WhyChooseUs .col-md-6 {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.WhyChooseUs img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .WhyChooseUs .container {
+        flex-direction: column;
+    }
+
+    .WhyChooseUs .col-md-6 {
+        padding: 20px 0;
+    }
+}
+
+.main {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6e6e6;
+}
+
+.main .container {
+    flex-direction: row;
+}
+
+.main .col-md-6 {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.main img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .main .container {
+        flex-direction: column;
+    }
+
+    .main .col-md-6 {
+        padding: 20px 0;
+    }
+}
+
+
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom:80px;
+}
+
+#contact {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+iframe {
+    width: 100%;
+    max-width: 90vh;
+    height: 450px;
+    border: 0;
+    margin: 0 auto;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+footer {
+    background-color:grey;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    margin-top: 20px;
+    bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text {
+        padding: 20px 0;
+    }
+}
+
+
+
